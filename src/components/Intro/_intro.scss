@@ -1,0 +1,37 @@
+.intro--box {
+    padding: 1rem;
+   
+}
+
+ 
+.intro--wrapper {
+    // width: 100%;
+    // padding-right: 1rem;
+    // position: relative;
+    background-color: $brand-ivory;
+    
+    // @include borderBox();
+}
+
+
+ 
+.intro--container {
+    max-width: $site-width;
+    margin: 0 auto;
+    padding: 0;
+    
+    @include borderBox();
+}
+
+
+
+//----------------------------------------------------
+// Media Queries
+//----------------------------------------------------
+@media (min-width: $breakpoint-large) {
+    .intro--wrapper{
+        // max-width: $site-width;
+        // margin: 0 auto;
+        padding: 1rem;
+    }    
+}
