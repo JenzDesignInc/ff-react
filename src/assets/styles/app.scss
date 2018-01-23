@@ -30,6 +30,15 @@
 @import "layout/split";
 
 //----------------------------------------------------
+// Lists
+//----------------------------------------------------
+
+@import "lists/hList";
+@import "lists/oList";
+@import "lists/uList";
+@import "lists/vList";
+
+//----------------------------------------------------
 // Content
 //----------------------------------------------------
 
@@ -63,14 +72,7 @@
 @import "containers/loader";
 
 
-//----------------------------------------------------
-// Lists
-//----------------------------------------------------
 
-@import "lists/hList";
-@import "lists/oList";
-@import "lists/uList";
-@import "lists/vList";
 
 //----------------------------------------------------
 // Landmarks
@@ -102,10 +104,15 @@
 // Custom
 //----------------------------------------------------
 @import "../../components/Hero/hero";
+@import "../../components/HeroContent/heroContent";
 @import "../../components/HorzMobileMenu/horzMobileMenu";
 @import "../../components/IntroCards/introCards";
+@import "../../components/Products/products";
+@import "../../components/AboutUs/aboutUs";
+@import "../../components/ContactUs/contactUs";
+@import "../../components/Form/form";
 @import "../../components/Intro/intro";
 @import "../../components/Footer/footer";
 
-@import url('https://fonts.googleapis.com/css?family=Satisfy|Cinzel|Arsenal');
+@import url('https://fonts.googleapis.com/css?family=Satisfy|Cinzel|Arsenal:400,700|Playfair+Display:400,700|Noto+Sans:400,700');
 

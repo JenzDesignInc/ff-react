@@ -5,13 +5,17 @@
   "dependencies": {
     "font-awesome": "^4.7.0",
     "jquery": "^3.2.1",
+    "material-ui": "^0.20.0",
     "node-sass-chokidar": "^0.0.3",
     "npm-run-all": "^4.1.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-fontawesome": "^1.6.1",
+    "react-form-validator-core": "^0.4.1",
     "react-ga": "^2.4.1",
+    "react-material-ui-form-validator": "^1.0.7",
     "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.0"
   },
   "scripts": {

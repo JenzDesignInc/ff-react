@@ -95,18 +95,28 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Cinzel', serif;
+    font-family: 'Arsenal', serif;
+ 
 }
 
+// font-family: 'Arsenal', sans-serif;
+// font-family: 'Playfair Display', serif;
+// font-family: 'Noto Sans', sans-serif;
+
 h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height:1.2;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: $brand-brown;
 
 }
 
 h2 {
     font-size: 1.625rem;
     line-height:1.2;
+    font-family: 'Noto Sans', sans-serif;
+    
 }
 
 h3 {

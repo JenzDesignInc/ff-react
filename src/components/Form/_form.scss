@@ -1,0 +1,30 @@
+.form--wrapper {
+    margin: 0 auto;
+    width: 75%;
+    background-color: $white;
+}
+
+.form--content {
+    text-align: center;
+    background-color: $white;
+}
+
+.label--left {
+    text-align: left!important;
+}
+
+.input--grow {
+    width: 60%!important;
+}
+
+
+@media screen and (max-width: $breakpoint-medium) {
+    .form--wrapper {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .input--grow {
+        width: 90%!important;
+    }
+}
