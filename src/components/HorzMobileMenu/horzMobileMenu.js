@@ -86,11 +86,11 @@ class Header extends React.Component {
                 <nav role="navigation">
                   <ul className="hList navMenu--horz">
 
-                    <li className="nav__link"><NavLink to="/Products" activeClassName="active" onClick={() => { this.handleClickProducts() }}>Products</NavLink></li>
-                    <li className="nav__link"><NavLink to="/AboutUs" activeClassName="active" onClick={() => { this.handleClickAboutUs() }}>About Us</NavLink></li>
-                    <li className="nav__link"><NavLink to="/FoundersClub" activeClassName="active" onClick={() => { this.handleClickFoundersClub() }}>Founders
+                    <li className="nav__link grow"><NavLink to="/Products" activeClassName="active" onClick={() => { this.handleClickProducts() }}>Products</NavLink></li>
+                    <li className="nav__link grow"><NavLink to="/AboutUs" activeClassName="active" onClick={() => { this.handleClickAboutUs() }}>About Us</NavLink></li>
+                    <li className="nav__link grow"><NavLink to="/FoundersClub" activeClassName="active" onClick={() => { this.handleClickFoundersClub() }}>Founders
                 Club</NavLink></li>
-                <li className="nav__link"><NavLink to="/ContactUs" activeClassName="active" onClick={() => { this.handleClickContactUs() }}>Contact Us</NavLink></li>
+                <li className="nav__link grow"><NavLink to="/ContactUs" activeClassName="active" onClick={() => { this.handleClickContactUs() }}>Contact Us</NavLink></li>
 
                   </ul>
                 </nav>

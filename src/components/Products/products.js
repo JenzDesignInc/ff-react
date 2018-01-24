@@ -102,13 +102,41 @@ class Products extends React.Component {
 
                             </div>
                             </div>
-                        </div>
+                        </div>  
+                          {/* End Desktop */}
+
+                          
+                <div className="isHidden--medium">
+                <div class="intro--wrapper vr--x2">
+                            <div className="box box--white">
+                            <h2>Price</h2>
+                                        <ul className="hList hList--piped hList--justify price--list--mobile vr txt--align-center">
+                                            <li className="txt--align-center"><span className="price">&nbsp;399</span>
+                                            <br/>per chair
+                                            
+                                            </li>
+                                            <li><span className="price">&nbsp;1399</span>
+                                            <br/>for a set of 4 chairs
+                                            </li>
+                                            <li><span className="price">&nbsp;349</span>
+                                            <br/>per chair for any orders exceeding 4 chairs
+                                            </li>
+                                        </ul>
+
+                                        <img src={chair} alt="" />
+                                    <h2 className="vr">Fireside - (in white/cedar 2 tone)</h2>
+
+                            </div>
+                            </div>
+                   
+
+                </div>  {/* End Mobile */}
 
                     </div>
                            
 
              
-                /* Desktop */
+             
               
 
 

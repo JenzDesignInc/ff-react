@@ -3835,6 +3835,11 @@ this cell in mobile view*/
   padding: 0.75rem 1rem;
   background-color: #6b352d; }
 
+.navMenu--horz > * + * {
+  border-left: 0;
+  padding-left: 2rem;
+  margin-left: .4rem; }
+
 .card--framed {
   border: 8px solid #f0e7d6; }
 
@@ -3842,10 +3847,17 @@ this cell in mobile view*/
   min-height: 550px; }
 
 .grow {
-  transition: all .2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   cursor: pointer; }
 
 .grow:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
   transform: scale(1.05); }
 
 .products {
@@ -3897,7 +3909,15 @@ this cell in mobile view*/
 .price--list > * {
   text-align: left;
   display: table-cell;
-  vertical-align: top; }
+  vertical-align: top;
+  padding: 0 1rem; }
+
+.price--list--mobile > * {
+  text-align: center;
+  display: table-cell;
+  vertical-align: top;
+  margin-left: 0rem;
+  padding: 0 1rem; }
 
 .swatch--list > * {
   padding-right: 0.5rem;
@@ -3981,4 +4001,5 @@ this cell in mobile view*/
     padding: 1rem; } }
 
 footer {
-  background-color: #f7941d; }
+  background-color: #f7941d;
+  padding: 1rem; }

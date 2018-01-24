@@ -24,8 +24,11 @@ class Footer extends React.Component {
                             <ul class="vList vList--tight txt--size-18 vr">
                                 <li class="border--bottom vr"></li>
                                 <li>Jeff Brown</li>
+                                <li className="vr">Co-Founder and Owner</li>
+                                <li>Fire and Feast Products, LLC</li>
+                                <li>1000 Brown Street, #212</li>
+                                <li  className="vr">Wauconda, IL 60084   </li>
 
-                                <li>Co-Founder and Owner</li>
                                 <li>847-830-1249</li>
                                 <li>
                                     <a href="mailto:jeff@fireandfeast.com?subject=Fire%20Cand%20Feast%20Inquiry" class="txt txt--color-white">jeff@thefireandfeast.com</a>

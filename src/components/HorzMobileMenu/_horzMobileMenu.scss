@@ -38,3 +38,9 @@
     background-color: $brand-brown;
   
 }
+
+.navMenu--horz > * + * {
+    border-left: 0;
+    padding-left: 2rem;
+    margin-left: .4rem;
+}
