@@ -4,7 +4,7 @@ import { findDOMNode } from 'react-dom';
 class Intro extends React.Component {
     render() {
         return (
-            <div className="intro--wrapper vr--x2">
+            <div className="card--shadow vr--x2">
                 <div className="box box--white txt--size-20">
                     <p>
 
