@@ -24,7 +24,7 @@ class ContactUs extends React.Component {
                     </div>
                 </div>
             
-                <div className="form--wrapper padding--x1">
+                <div className="form--wrapper padding--x1 card--shadow">
             
             <h1 className="vr txt--align-center"></h1>
 
