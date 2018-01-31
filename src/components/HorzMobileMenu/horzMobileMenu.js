@@ -7,7 +7,41 @@ import ReactGA from 'react-ga';
 
 
 class Header extends React.Component {
+  function ($) {
 
+    'use strict';
+  
+    $.fn.header = function () {
+      return this.each(function () {
+  
+        var $this = $(this);
+  
+        $('.header__mobileUtil', $this).unbind('click').on('click', function (e) {
+          e.stopPropagation();
+          $this.toggleClass('hamburger__navicon--isActive');
+          $('.togglePanel', $this).slideToggle('nav--show');
+        });
+  
+        $(document).keyup(function (e) {
+          if (e.keyCode == 27) {
+            $('.togglePanel').slideUp().removeClass('nav--show');
+            $('.header__mobileUtil').removeClass('hamburger__navicon--isActive');
+          }
+        });
+  
+        $(document).on('click', function () {
+          if ($('.togglePanel').is(':visible')) {
+            $('.togglePanel').slideUp().removeClass('nav--show');
+            $('.header__mobileUtil').removeClass('hamburger__navicon--isActive');
+          }
+        });
+  
+      });
+    }
+  
+    $('.global-header').header();
+  
+  };
   
   handleClickProducts() {
     ReactGA.event({
@@ -41,19 +75,45 @@ class Header extends React.Component {
     });
   }
 
+
+  handleClickHome() {
+    ReactGA.event({
+      category: 'Navigation',
+      action: 'Home',
+      label: 'Hamburger Menu'
+    });
+  }
+
   handleToggle = () => {
     const el = findDOMNode(this.refs.toggle);
+   
     $(el).slideToggle();
     $(el).removeClass("nav--hide");
     $(el).addClass("hamburger__navicon--isActive");
 
+    $(document).keyup(function (e) {
+      if (e.keyCode == 27) {
+        $('.togglePanel').slideUp().removeClass('nav--show');
+        $('.header__mobileUtil').removeClass('hamburger__navicon--isActive');
+      }
+    });
+
+    $(el).on('click', function () {
+      if ($('.togglePanel').is(':visible')) {
+        $('.togglePanel').slideUp().removeClass('nav--show');
+        $('.header__mobileUtil').removeClass('hamburger__navicon--isActive');
+      }
+    });
+
   };
+
+  
 
   render() {
     return (
       <div>
         <div className="responsive__header global-header">
-        <div class="wrapper">
+        <div className="wrapper">
           <div className="flag flag--middle">
             <div className="flag__hd">
               <div className="isHidden isVisible--medium">
@@ -112,11 +172,13 @@ class Header extends React.Component {
               <div id="navMenu-vert-1" className="togglePanel nav--hide" ref="toggle">
                 <nav role="navigation">
                   <ul className="vList vList--piped navMenu--vert">
-                  <li><NavLink to="/Products" activeClassName="active" onClick={() => { this.handleClickProducts() }}>Products</NavLink></li>
-                  <li><NavLink to="/AboutUs" activeClassName="active" onClick={() => { this.handleClickAboutUs() }}>About Us</NavLink></li>
-                  <li><NavLink to="/FoundersClub" activeClassName="active" onClick={() => { this.handleClickFoundersClub() }}>Founders
+                  <li><NavLink to="/Products" activeClassName="active" className="nav__link" onClick={() => { this.handleClickProducts() }}>Products</NavLink></li>
+                  <li><NavLink to="/AboutUs" activeClassName="active" className="nav__link" onClick={() => { this.handleClickAboutUs() }}>About Us</NavLink></li>
+                  <li><NavLink to="/FoundersClub" activeClassName="active" className="nav__link" onClick={() => { this.handleClickFoundersClub() }}>Founders
               Club</NavLink></li>
-                  <li><NavLink to="/ContactUs" activeClassName="active" onClick={() => { this.handleClickContactUs() }}>Contact Us</NavLink></li>
+                  <li><NavLink to="/ContactUs" activeClassName="active" className="nav__link" onClick={() => { this.handleClickContactUs() }}>Contact Us</NavLink></li>
+
+                  <li><NavLink to="/Home" activeClassName="active" className="nav__link" onClick={() => { this.handleClickHome() }}>Home</NavLink></li>
 
                   </ul>
                 </nav>

@@ -44,3 +44,10 @@
     padding-left: 2rem;
     margin-left: .4rem;
 }
+@media (max-width: $breakpoint-medium) {
+
+.navMenu--vert {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+}
