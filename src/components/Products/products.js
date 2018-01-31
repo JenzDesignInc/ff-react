@@ -39,7 +39,7 @@ class Products extends React.Component {
 
                                     <div className="grid__col grid__col--6of12">
 
-                                        <div class="box box--white vr">
+                                        <div class="vr">
                                             <h1>Price</h1>
                                             <ul className="hList hList--piped price--list vr">
                                                 <li className="pr1"><span className="price">&nbsp;399</span>
@@ -93,7 +93,7 @@ class Products extends React.Component {
                         <div className="card card--shadow">
                             <div className="card__body">
                                 <h1>Why HDPE?</h1>
-                                <h2 className="vr">Fire and Feast furniture is constructed using 18-8 stainless steel fasteners, thus preventing corrosion and rust on furniture hardware and more...</h2>
+                                <p className="txt--size-18">Fire and Feast furniture is constructed using 18-8 stainless steel fasteners, thus preventing corrosion and rust on furniture hardware and more...</p>
                                 <ul className="uList">
                                     <li className="">HDPE lumber stops hundreds of millions of plastic containers from entering the landfill waste stream through the production of recycled HDPE resin made from post consumer materials, thus supporting a net positive impact on the environment</li>
                                     <li className="">HDPE furniture is resistant to mold, mildew, and UV sunlight</li>
@@ -132,7 +132,7 @@ class Products extends React.Component {
                            
 
                             <img src={chair} alt="" />
-                            <h3 className="vr">Fireside - (in white/cedar 2 tone)</h3>
+                            <h4 className="vr">Fireside - (in white/cedar 2 tone)</h4>
 
                             <ul className="hList hList--justify swatch--list vr txt--style-bold">
                                             <li> <img src={pattern1} alt="" className="img img--fill" />

@@ -34,11 +34,11 @@ Become an exclusive "chair-holder".</h2>
                 
                
             
-              <div className="form--wrapper padding--x1">
+              <div className="form--wrapper padding--x1 card--shadow">
             
               <h1 className="vr txt--align-center">Join the Founder's Club</h1>
 
-              <Form></Form>
+              <Form className=""></Form>
       
               
               </div>
