@@ -3855,6 +3855,11 @@ this cell in mobile view*/
   padding-left: 2rem;
   margin-left: .4rem; }
 
+@media (max-width: 48em) {
+  .navMenu--vert {
+    font-size: 1rem;
+    margin-top: 1rem; } }
+
 #introCard:hover, #introCard:focus, #introCard:visited {
   text-decoration: none;
   color: #000000; }
