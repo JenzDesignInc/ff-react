@@ -78,7 +78,7 @@
     display:table-cell;
     vertical-align:top;
     margin-left: 0rem;
-    padding: 0 1rem;
+    padding: 0 0.2rem;
 
 }
 
@@ -111,4 +111,12 @@
 .pl05 {
     padding-left: 0.5rem;
     //.pxsToRems(padding, (@base--spacingUnit * 12));
+}
+
+.hList--piped > * + * { //[1]
+    border-left: 1px solid $gray-3;
+}
+
+.vList--piped > * + * { //[1]
+    border-top: 1px solid $gray-3;
 }

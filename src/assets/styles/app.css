@@ -3962,7 +3962,7 @@ this cell in mobile view*/
   display: table-cell;
   vertical-align: top;
   margin-left: 0rem;
-  padding: 0 1rem; }
+  padding: 0 0.2rem; }
 
 .swatch--list > * {
   padding-right: 0.5rem;
@@ -3982,6 +3982,12 @@ this cell in mobile view*/
 
 .pl05 {
   padding-left: 0.5rem; }
+
+.hList--piped > * + * {
+  border-left: 1px solid #cccccc; }
+
+.vList--piped > * + * {
+  border-top: 1px solid #cccccc; }
 
 .aboutUs {
   position: fixed;
@@ -4048,3 +4054,10 @@ this cell in mobile view*/
 footer {
   background-color: #f7941d;
   padding: 1rem; }
+
+.uList > * {
+  line-height: 1.4; }
+
+@media screen and (max-width: 48em) {
+  h1 {
+    font-size: 2rem; } }
