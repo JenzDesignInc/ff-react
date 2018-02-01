@@ -13,6 +13,9 @@ import { TextValidator } from 'react-material-ui-form-validator';
 
 
 class FoundersClub extends React.Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
     render() {
         return (
             <div>
@@ -23,21 +26,27 @@ class FoundersClub extends React.Component {
                 <div className="wrapper">
                     <div className="hero__founders--content txt--color-white txt--align-center">
                         <h1 className="vr hero__title">Founder's Club</h1>
-                        <h2>Join us as a member of the Fire and Feast Founder's Club:
-As a member, you will receive periodic updates regarding new product launches, Care and maintenance tips, recipes, BBQ and grilling insight, and recommendations for how you can enjoy lifeoutdoors
-You will also receive exclusive discounts and coupons for Fire and Feast Products, including 20% your first order!
-Become an exclusive "chair-holder".</h2>
+                        <div className="hero__content--bkg">
+                        <h2>Become an exclusive "chair-holder"!</h2>
+</div>
                        
                     </div>
                 </div>
 
-                
-               
+
+
+
             
               <div className="form--wrapper padding--x1 card--shadow">
             
               <h1 className="vr txt--align-center">Join the Founder's Club</h1>
+              <div className="founders--wrapper">
+              <p>Join us as a member of the Fire and Feast Founder's Club. As a member, you will receive periodic updates regarding new product launches, care and maintenance tips, recipes, BBQ and grilling insight, and recommendations for how you can enjoy lifeoutdoors. </p>
+              <p>You will also receive exclusive discounts and coupons for Fire and Feast Products, including <strong>20% your first order!</strong>
+</p>
+</div>
 
+             
               <Form className=""></Form>
       
               

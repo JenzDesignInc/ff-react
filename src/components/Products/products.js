@@ -1,5 +1,6 @@
 import React from 'react'
 import { findDOMNode } from 'react-dom';
+import { Link, NavLink } from 'react-router-dom';
 import ReactGA from 'react-ga';
 import pattern1 from '../../assets/images/pattern_1.png'
 import pattern2 from '../../assets/images/pattern_2.png'
@@ -74,9 +75,9 @@ class Products extends React.Component {
                                         <ul className="vList vList--piped">
                                             <li> <p>The FIRESIDE is available in each of the 4 colors above, as well as any 2 tone combination of the 4. Please <a href="">contact us</a> to receive a free color sample to ensure that you select the desired color for your chairs.</p></li>
                                             <li> <p>Free ground shipping in the continental US</p></li>
-                                            <li>  <p>Our product line will continually expand throughout early 2018, join our exclusive Founder's Club to receive information about new products and discounts for Fire and Feast Furniture.</p>
+                                            <li>  <p>Our product line will continually expand throughout early 2018, join our exclusive <NavLink to="/FoundersClub" activeClassName="active">Founder's Club</NavLink> to receive information about new products and discounts for Fire and Feast Furniture.</p>
 </li>
-                                            <li><p>Please contact us if you are interested in Fire and Feast designing and building custom outdoor furniture to fit your individual needs</p></li>
+                                            <li><p>Please <NavLink to="/ContactUs" activeClassName="active">contact us</NavLink> if you are interested in Fire and Feast designing and building custom outdoor furniture to fit your individual needs</p></li>
                                         </ul>
                                        
                                        
