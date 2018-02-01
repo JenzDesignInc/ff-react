@@ -14,15 +14,15 @@ class Footer extends React.Component {
                 <div class="wrapper">
 
                     <div class="grid grid--middle">
-                        <div class="grid__col grid__col--6of12--medium txt--color-white">
-                            <div className="vr"></div>
-                            <div class="header--fireFeast footer__logo vr"></div>
+                        <div class="grid__col grid__col--6of12--medium grid__col--12of12 txt--color-white">
+                            
+                            <div className="logo--fireFeast--footer"></div>
                             <h3 class="txt--weight-semibold txt--size-28">Fire and Feast</h3>
 
 
 
                             <ul class="vList vList--tight txt--size-18 vr">
-                                <li class="border--bottom vr"></li>
+                              
                                 <li>Jeff Brown</li>
                                 <li className="vr">Co-Founder and Owner</li>
                                 <li>Fire and Feast Products, LLC</li>
@@ -38,14 +38,16 @@ class Footer extends React.Component {
 
                         </div>
 
-                        <div class="grid__col grid__col--6of12--medium">
+                        <div class="grid__col grid__col--6of12--medium grid__col--12of12">
 
-
+                        <div className="isHidden isVisible--medium">
                             <nav role="navigation" class="vr footer__icons txt--align-right">
 
                                 <ul class="hList">
 
-
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                        <li> <FontAwesome name='instagram' size='3x' className='fa fa-instagram fa-inverse fa-3x' /></li>
+                                    </a>
 
                                     <a href="https://twitter.com/thefireandfeast" target="_blank" rel="noopener noreferrer">
                                         <li> <FontAwesome name='twitter' size='3x' className='fa fa-twitter fa-inverse fa-3x' /></li>
@@ -56,6 +58,30 @@ class Footer extends React.Component {
 
                                 </ul>
                             </nav>
+                            </div>
+
+                            <div className="isHidden--medium">
+                            <nav role="navigation" class="vr footer__icons">
+
+<ul class="hList">
+
+<a href="" target="_blank" rel="noopener noreferrer">
+        <li> <FontAwesome name='instagram' size='3x' className='fa fa-instagram fa-inverse fa-3x' /></li>
+    </a>
+
+    <a href="https://twitter.com/thefireandfeast" target="_blank" rel="noopener noreferrer">
+        <li> <FontAwesome name='twitter' size='3x' className='fa fa-twitter fa-inverse fa-3x' /></li>
+    </a>
+    <a href="https://www.facebook.com/thefireandfeast/" target="_blank" rel="noopener noreferrer">
+        <li> <FontAwesome name='facebook' size='3x' className='fa fa-facebook fa-inverse fa-3x' /></li>
+    </a>
+
+</ul>
+</nav>
+                            
+
+
+                            </div>
 
                         </div>
 

@@ -133,7 +133,7 @@ class Header extends React.Component {
                 <ul className="hList hList--middle">
                   <li>
                     <NavLink to="/Home" activeClassName="active">
-                      <div className="logo--fireFeast--flameOnly"></div>
+                      <div className="logo--fireFeast"></div>
                     </NavLink>
 
                   </li>
