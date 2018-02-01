@@ -1,4 +1,4 @@
-.aboutUs {
+.foundersClub {
     position: fixed;
     left: 0px;
     top: -100px;
@@ -9,7 +9,7 @@
     background-size: cover;
     background-position: 50% 50%;
     background-color: #262626;
-    background-image: url('../../assets/images/about_bkg.jpg');
+    background-image: url('../../assets/images/foundersClub_bkg.jpg');
     background-repeat: no-repeat;
     // width: 100%;
     // background-color: gray;
@@ -17,11 +17,7 @@
     // position: relative;
 }
 
-.hero__aboutUs--content {
-    padding: 10% 0;
+.hero__founders--content {
+    padding: 8% 0;
    }
-
-
-   .pl1 {
-       padding-left: 1rem;
-   }
+   

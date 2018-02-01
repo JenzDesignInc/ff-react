@@ -20,7 +20,10 @@ class Products extends React.Component {
                 <div className="wrapper">
                     <div className="hero__products--content txt--color-white txt--align-center">
                         <h1 className="hero__title vr">Products</h1>
+                        <div className="hero__content--bkg">
                         <h2>Introducing the Fire and Feast "Fireside" – <br />a modern version of the classic adirondack chair design</h2>
+
+                        </div>
                     </div>
                 </div>
 
