@@ -4031,9 +4031,13 @@ this cell in mobile view*/
 .hero__founders--content {
   padding: 8% 0; }
 
+.founders--wrapper {
+  width: 60%;
+  margin: 0 auto; }
+
 .form--wrapper {
   margin: 0 auto;
-  width: 75%;
+  width: 100%;
   background-color: #ffffff; }
 
 .form--content {
