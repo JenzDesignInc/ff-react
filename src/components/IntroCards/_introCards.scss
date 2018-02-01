@@ -12,6 +12,10 @@
 
 }
 
+.txt--font-heading {
+  color: $brand-brown;
+}
+
 .card--shadow {
   @include dropShadow(0 0 5px rgba(0,0,0,0.25));
 }
