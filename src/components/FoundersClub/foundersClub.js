@@ -3,7 +3,7 @@ import { findDOMNode } from 'react-dom';
 import ReactGA from 'react-ga';
 
 import $ from 'jquery';
-import Form from '../Form/form';
+import FormClub from '../FormClub/formClub';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import RaisedButton from 'material-ui/RaisedButton';
 import { ValidatorForm } from 'react-form-validator-core';
@@ -47,7 +47,7 @@ class FoundersClub extends React.Component {
 </div>
 
              
-              <Form className=""></Form>
+              <FormClub className=""></FormClub>
       
               
               </div>

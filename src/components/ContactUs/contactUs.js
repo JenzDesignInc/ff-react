@@ -12,6 +12,7 @@ class ContactUs extends React.Component {
     componentDidMount() {
         window.scrollTo(0, 0);
     }
+    
     render() {
         return (
             <div>
@@ -22,6 +23,9 @@ class ContactUs extends React.Component {
                 <div className="wrapper">
                     <div className="hero__products--content txt--color-white txt--weight-bold txt--align-center">
                         <h1 className="vr hero__title">Contact Us</h1>
+                        <div className="hero__content--bkg">
+                        <h2>Please contact us if you are interested in custom outdoor furniture to fit your individual needs.</h2>
+                        </div>
                        
                        
                     </div>
