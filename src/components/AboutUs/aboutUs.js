@@ -15,7 +15,7 @@ class AboutUs extends React.Component {
           
             
             <div className="wrapper">
-                    <div className="hero__products--content txt--color-white txt--align-center">
+                    <div className="hero__aboutUs--content txt--color-white txt--align-center">
                         <h1 className="hero__title vr">About Us</h1>
                         <h2>Fire and Feast furniture is inspired by the need for comfortable furniture to spend life outdoors with family and friends.  Whether that time be spent with loved ones lakeside, poolside, fireside, or tableside, Fire and Feast is dedicated to meeting your furnishing needs for time together outside</h2>
                     </div>

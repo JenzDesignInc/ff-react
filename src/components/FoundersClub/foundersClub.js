@@ -16,12 +16,12 @@ class FoundersClub extends React.Component {
     render() {
         return (
             <div>
-              <div className="products">
-                    <div className="hero__products--content"> </div>
+              <div className="foundersClub">
+                    <div className="hero__founders--content"> </div>
                 </div>
 
                 <div className="wrapper">
-                    <div className="hero__products--content txt--color-white txt--align-center">
+                    <div className="hero__founders--content txt--color-white txt--align-center">
                         <h1 className="vr hero__title">Founder's Club</h1>
                         <h2>Join us as a member of the Fire and Feast Founder's Club:
 As a member, you will receive periodic updates regarding new product launches, Care and maintenance tips, recipes, BBQ and grilling insight, and recommendations for how you can enjoy lifeoutdoors

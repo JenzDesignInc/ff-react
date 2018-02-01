@@ -12,12 +12,12 @@ class HeroContent extends React.Component {
             <div className="txt--align-center"> 
             <div className="logo--fireFeast--chair--white"></div>
             </div>
-                
+           <div className="hero__content--bkg"> 
             <div className="hero--content txt--color-white txt--align-center txt--size-24 txt--style-bold">
 
-            Fire and Feast Products designs and build outdoor furniture of the highest quality and comfort using high density polyethylene (HDPE). Created primarily from recycled plastic milk containers and other similar non-biodegradable plastics, HDPE “lumber” saves millions of containers from the landfill. HDPE provides countless possibilities for your craftsman grade, outdoor furniture needs.
+            <h2>Fire and Feast Products designs and builds outdoor furniture of the highest quality and comfort using high density polyethylene (HDPE). </h2>
             </div>
-              
+            </div>    
             </div>
 
 
