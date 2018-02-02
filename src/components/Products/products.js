@@ -123,20 +123,33 @@ class Products extends React.Component {
                 <div className="card card--shadow vr--x2">
                 <div className="card__body">
                     
-                        <h1>Price</h1>
+                        <h1 className="vr">Price</h1>
                        
-                            <ul className="hList hList--piped hList--justify price--list--mobile vr txt--align-center">
+                            {/* <ul className="hList hList--piped hList--justify price--list--mobile vr txt--align-center">
                                 <li className="txt--align-center"><span className="price">&nbsp;399</span>
-                                    <br /><p className="txt--size-12">per chair</p>
+                                    <br />per chair
 
                                             </li>
                                 <li><span className="price">&nbsp;1399</span>
-                                    <br /><p className="txt--size-12">for a set of 4 chairs</p>
+                                    <br />for a set of 4 chairs
                                             </li>
                                 <li><span className="price">&nbsp;349</span>
-                                    <br /><p className="txt--size-12">per chair for any orders exceeding 4 chairs</p>
+                                    <br />per chair for any orders exceeding 4 chairs
                                             </li>
-                            </ul>
+                            </ul> */}
+
+<ul className="hList hList--piped  hList--justify price--list--mobile vr txt--align-center">
+                                                <li className="pr1"><span className="price">&nbsp;399</span>
+                                                    <br />per chair
+
+                                            </li>
+                                                <li className="pr1"><span className="price">&nbsp;1399</span>
+                                                    <br />for a set of 4 chairs
+                                            </li>
+                                                <li><span className="price">&nbsp;349</span>
+                                                    <br />per chair for any order exceeding 4 chairs
+                                            </li>
+                                            </ul>
                            
 
                             <img src={chair} alt="" />

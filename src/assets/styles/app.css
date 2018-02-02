@@ -3986,6 +3986,7 @@ this cell in mobile view*/
   text-align: left;
   display: table-cell;
   vertical-align: top;
+  line-height: 1.2;
   padding: 0 1rem; }
 
 .price--list--mobile > * {
@@ -4024,7 +4025,10 @@ this cell in mobile view*/
   .swatch--list {
     font-size: 0.8rem; }
   .price {
-    font-size: 1.8rem; } }
+    font-size: 1.8rem; }
+  .price--list--mobile > * {
+    line-height: 1.2;
+    font-size: 0.9rem; } }
 
 .aboutUs {
   position: fixed;
