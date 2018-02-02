@@ -10,6 +10,9 @@ import pattern4 from '../../assets/images/pattern_4.png'
 import chair from '../../assets/images/chair.jpg'
 
 class Products extends React.Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
     render() {
         return (
             <div>
