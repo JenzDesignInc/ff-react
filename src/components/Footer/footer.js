@@ -12,22 +12,106 @@ class Footer extends React.Component {
             <footer class="page__footer">
 
                 <div class="wrapper">
+                    <div className="isHidden isVisible--medium">
+                        <div className="grid grid--bottom txt--color-white">
 
-                    <div class="grid grid--middle">
-                        <div class="grid__col grid__col--6of12--medium grid__col--12of12 txt--color-white">
-                            
-                            <div className="logo--fireFeast--footer"></div>
-                            <h3 class="txt--weight-semibold txt--size-28 vr">Fire and Feast</h3>
+                            <div className="grid__col grid__col--4of12">
+
+                                <div className="logo--fireFeast--footer"></div>
+                                <h3 class="txt--size-24 vr footer--txt--brand"><strong>FIRE AND FEAST</strong></h3>
+
+                                <nav role="navigation" class="vr footer__icons">
+
+                                    <ul class="hList">
+
+                                        <a href="https://instagram.com/fire_and_feast" target="_blank" rel="noopener noreferrer">
+                                            <li> <FontAwesome name='instagram' size='3x' className='fa fa-instagram' /></li>
+                                        </a>
+
+                                        <a href="https://twitter.com/thefireandfeast" target="_blank" rel="noopener noreferrer">
+                                            <li> <FontAwesome name='twitter' size='3x' className='fa fa-twitter' /></li>
+                                        </a>
+                                        <a href="https://www.facebook.com/thefireandfeast/" target="_blank" rel="noopener noreferrer">
+                                            <li> <FontAwesome name='facebook' size='3x' className='fa fa-facebook' /></li>
+                                        </a>
+
+                                    </ul>
+                                </nav>
+
+                            </div>
+
+                            <div className="grid__col grid__col--4of12">
+
+                                <ul class="vList vList--tight txt--size-18 vr">
+                                    <li className=""><strong>Glen Frank</strong></li>
+                                    <li>Co-Founder and Owner</li>
+                                    <li class="vr">
+                                        <a href="mailto:glen@thefireandfeast.com?subject=Fire%20and%20Feast%20Inquiry" class="txt txt--color-white">glen@thefireandfeast.com</a>
+                                    </li>
+
+                                    <li><strong>Jeff Brown</strong></li>
+                                    <li>Co-Founder and Owner</li>
+                                    <li class="vr">
+                                        <a href="mailto:jeff@thefireandfeast.com?subject=Fire%20and%20Feast%20Inquiry" class="txt txt--color-white">jeff@thefireandfeast.com</a>
+                                    </li>
+
+
+                                </ul>
+
+                            </div>
+
+                            <div className="grid__col grid__col--4of12 txt--align--right">
+
+                                <ul class="vList vList--tight txt--size-18 vr">
+                                    <li>Fire and Feast Products, LLC</li>
+                                    <li>1000 Brown Street, #212</li>
+                                    <li className="vr">Wauconda, IL 60084   </li>
+
+                                    <li>844-733-4771 (Toll-Free)</li>
+                                    <li>847-478-3313 (Main-Office)</li>
+                                    <li>847-478-3220 (Fax)</li>
+                                </ul>
+
+                            </div>
 
 
 
+                        </div>
+                    </div>
+
+                    <div className="isHidden--medium">
+                        <div class="wrapper  txt--align-center">
+                            <div className="logo--fireFeast--footer "></div>
+                            <h3 class="txt--size-24 vr footer--txt--brand"><strong>FIRE AND FEAST</strong></h3>
+                            <nav role="navigation" class="vr footer__icons">
+
+                                <ul class="hList">
+
+                                    <a href="https://instagram.com/fire_and_feast" target="_blank" rel="noopener noreferrer">
+                                        <li> <FontAwesome name='instagram' size='3x' className='fa fa-instagram' /></li>
+                                    </a>
+
+                                    <a href="https://twitter.com/thefireandfeast" target="_blank" rel="noopener noreferrer">
+                                        <li> <FontAwesome name='twitter' size='3x' className='fa fa-twitter' /></li>
+                                    </a>
+                                    <a href="https://www.facebook.com/thefireandfeast/" target="_blank" rel="noopener noreferrer">
+                                        <li> <FontAwesome name='facebook' size='3x' className='fa fa-facebook' /></li>
+                                    </a>
+
+                                </ul>
+                            </nav>
+
+
+                        </div>
+                        <div className="grid grid--centered txt--color-white">
+                            <div className="grid__col  txt--align-center">
                             <ul class="vList vList--tight txt--size-18 vr">
-                            <li className=""><strong>Glen Frank</strong></li>
+                                <li className=""><strong>Glen Frank</strong></li>
                                 <li>Co-Founder and Owner</li>
                                 <li class="vr">
                                     <a href="mailto:glen@thefireandfeast.com?subject=Fire%20and%20Feast%20Inquiry" class="txt txt--color-white">glen@thefireandfeast.com</a>
                                 </li>
-                              
+
                                 <li><strong>Jeff Brown</strong></li>
                                 <li>Co-Founder and Owner</li>
                                 <li class="vr">
@@ -35,58 +119,13 @@ class Footer extends React.Component {
                                 </li>
                                 <li>Fire and Feast Products, LLC</li>
                                 <li>1000 Brown Street, #212</li>
-                                <li  className="vr">Wauconda, IL 60084   </li>
+                                <li className="vr">Wauconda, IL 60084   </li>
 
                                 <li>844-733-4771 (Toll-Free)</li>
                                 <li>847-478-3313 (Main-Office)</li>
                                 <li>847-478-3220 (Fax)</li>
-                               
 
                             </ul>
-
-                        </div>
-
-                        <div class="grid__col grid__col--6of12--medium grid__col--12of12">
-
-                        <div className="isHidden isVisible--medium">
-                            <nav role="navigation" class="vr footer__icons txt--align-right">
-
-                                <ul class="hList">
-
-                                <a href="" target="_blank" rel="noopener noreferrer">
-                                        <li> <FontAwesome name='instagram' size='3x' className='fa fa-instagram fa-inverse fa-3x' /></li>
-                                    </a>
-
-                                    <a href="https://twitter.com/thefireandfeast" target="_blank" rel="noopener noreferrer">
-                                        <li> <FontAwesome name='twitter' size='3x' className='fa fa-twitter fa-inverse fa-3x' /></li>
-                                    </a>
-                                    <a href="https://www.facebook.com/thefireandfeast/" target="_blank" rel="noopener noreferrer">
-                                        <li> <FontAwesome name='facebook' size='3x' className='fa fa-facebook fa-inverse fa-3x' /></li>
-                                    </a>
-
-                                </ul>
-                            </nav>
-                            </div>
-
-                            <div className="isHidden--medium">
-                            <nav role="navigation" class="vr footer__icons">
-
-<ul class="hList">
-
-<a href="https://instagram.com/fire_and_feast" target="_blank" rel="noopener noreferrer">
-        <li> <FontAwesome name='instagram' size='3x' className='fa fa-instagram fa-inverse fa-3x' /></li>
-    </a>
-
-    <a href="https://twitter.com/thefireandfeast" target="_blank" rel="noopener noreferrer">
-        <li> <FontAwesome name='twitter' size='3x' className='fa fa-twitter fa-inverse fa-3x' /></li>
-    </a>
-    <a href="https://www.facebook.com/thefireandfeast/" target="_blank" rel="noopener noreferrer">
-        <li> <FontAwesome name='facebook' size='3x' className='fa fa-facebook fa-inverse fa-3x' /></li>
-    </a>
-
-</ul>
-</nav>
-                            
 
 
                             </div>
@@ -96,7 +135,6 @@ class Footer extends React.Component {
                     </div>
 
                 </div>
-
 
             </footer>
 
