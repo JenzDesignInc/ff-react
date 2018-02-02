@@ -22,7 +22,7 @@ class Products extends React.Component {
                     <div className="hero__products--content txt--color-white txt--align-center">
                         <h1 className="hero__title vr">Products</h1>
                         <div className="hero__content--bkg">
-                        <h2>Introducing the Fire and Feast "Fireside" – <br />a modern version of the classic adirondack chair design</h2>
+                        <h2>Introducing the Fire and Feast "Fireside" <br />a modern version of the classic adirondack chair design</h2>
 
                         </div>
                     </div>
@@ -54,7 +54,7 @@ class Products extends React.Component {
                                                     <br />for a set of 4 chairs
                                             </li>
                                                 <li><span className="price">&nbsp;349</span>
-                                                    <br />per chair for any orders exceeding 4 chairs
+                                                    <br />per chair for any order exceeding 4 chairs
                                             </li>
                                             </ul>
                                         </div>
@@ -71,13 +71,14 @@ class Products extends React.Component {
                                         </ul>
 
 
-
                                         <ul className="vList vList--piped">
                                             <li> <p>The FIRESIDE is available in each of the 4 colors above, as well as any 2 tone combination of the 4. Please <a href="">contact us</a> to receive a free color sample to ensure that you select the desired color for your chairs.</p></li>
-                                            <li> <p>Free ground shipping in the continental US</p></li>
+                                            <li> <p>Free ground shipping in the continental US.</p></li>
                                             <li>  <p>Our product line will continually expand throughout early 2018, join our exclusive <NavLink to="/FoundersClub" activeClassName="active">Founder's Club</NavLink> to receive information about new products and discounts for Fire and Feast Furniture.</p>
 </li>
-                                            <li><p>Please <NavLink to="/ContactUs" activeClassName="active">contact us</NavLink> if you are interested in Fire and Feast designing and building custom outdoor furniture to fit your individual needs</p></li>
+                                            <li><p>Please <NavLink to="/ContactUs" activeClassName="active">email </NavLink> or call <strong>844-733-4771</strong> (Toll-Free) 
+                                            to order the Fireside or for a custom outdoor furniture consulation. 
+                                            </p></li>
                                         </ul>
                                        
                                        

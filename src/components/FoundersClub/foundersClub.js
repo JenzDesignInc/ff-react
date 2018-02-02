@@ -40,11 +40,11 @@ class FoundersClub extends React.Component {
               <div className="form--wrapper padding--x1 card--shadow">
             
               <h1 className="vr txt--align-center">Join the Founder's Club</h1>
-              <div className="founders--wrapper">
+             
               <p>Join us as a member of the Fire and Feast Founder's Club. As a member, you will receive periodic updates regarding new product launches, care and maintenance tips, recipes, BBQ and grilling insight, and recommendations for how you can enjoy lifeoutdoors. </p>
-              <p>You will also receive exclusive discounts and coupons for Fire and Feast Products, including <strong>20% your first order!</strong>
+              <p>You will also receive exclusive discounts and coupons for Fire and Feast Products, including <strong>15% your first order!</strong>
 </p>
-</div>
+
 
              
               <FormClub className=""></FormClub>

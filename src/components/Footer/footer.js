@@ -17,22 +17,30 @@ class Footer extends React.Component {
                         <div class="grid__col grid__col--6of12--medium grid__col--12of12 txt--color-white">
                             
                             <div className="logo--fireFeast--footer"></div>
-                            <h3 class="txt--weight-semibold txt--size-28">Fire and Feast</h3>
+                            <h3 class="txt--weight-semibold txt--size-28 vr">Fire and Feast</h3>
 
 
 
                             <ul class="vList vList--tight txt--size-18 vr">
+                            <li className=""><strong>Glen Frank</strong></li>
+                                <li>Co-Founder and Owner</li>
+                                <li class="vr">
+                                    <a href="mailto:glen@thefireandfeast.com?subject=Fire%20and%20Feast%20Inquiry" class="txt txt--color-white">glen@thefireandfeast.com</a>
+                                </li>
                               
-                                <li>Jeff Brown</li>
-                                <li className="vr">Co-Founder and Owner</li>
+                                <li><strong>Jeff Brown</strong></li>
+                                <li>Co-Founder and Owner</li>
+                                <li class="vr">
+                                    <a href="mailto:jeff@thefireandfeast.com?subject=Fire%20and%20Feast%20Inquiry" class="txt txt--color-white">jeff@thefireandfeast.com</a>
+                                </li>
                                 <li>Fire and Feast Products, LLC</li>
                                 <li>1000 Brown Street, #212</li>
                                 <li  className="vr">Wauconda, IL 60084   </li>
 
-                                <li>847-830-1249</li>
-                                <li>
-                                    <a href="mailto:jeff@fireandfeast.com?subject=Fire%20Cand%20Feast%20Inquiry" class="txt txt--color-white">jeff@thefireandfeast.com</a>
-                                </li>
+                                <li>844-733-4771 (Toll-Free)</li>
+                                <li>847-478-3313 (Main-Office)</li>
+                                <li>847-478-3220 (Fax)</li>
+                               
 
                             </ul>
 
@@ -65,7 +73,7 @@ class Footer extends React.Component {
 
 <ul class="hList">
 
-<a href="" target="_blank" rel="noopener noreferrer">
+<a href="https://instagram.com/fire_and_feast" target="_blank" rel="noopener noreferrer">
         <li> <FontAwesome name='instagram' size='3x' className='fa fa-instagram fa-inverse fa-3x' /></li>
     </a>
 

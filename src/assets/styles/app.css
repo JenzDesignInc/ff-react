@@ -3828,7 +3828,7 @@ this cell in mobile view*/
   margin-top: -40px; }
 
 .nav__link > a {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: white;
   text-transform: uppercase; }
 
@@ -3863,6 +3863,10 @@ this cell in mobile view*/
   border-left: 0;
   padding-left: 2rem;
   margin-left: .4rem; }
+
+@media (max-width: 865px) {
+  .navMenu--horz > * + * {
+    padding-left: 0.8rem; } }
 
 @media (max-width: 48em) {
   .navMenu--vert {
@@ -4015,6 +4019,12 @@ this cell in mobile view*/
 
 .vList--piped > * + * {
   border-top: 1px solid #cccccc; }
+
+@media screen and (max-width: 48em) {
+  .swatch--list {
+    font-size: 0.8rem; }
+  .price {
+    font-size: 1.8rem; } }
 
 .aboutUs {
   position: fixed;
