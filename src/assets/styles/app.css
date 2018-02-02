@@ -3866,7 +3866,7 @@ this cell in mobile view*/
 
 @media (max-width: 865px) {
   .navMenu--horz > * + * {
-    padding-left: 0.8rem; } }
+    padding-left: 0.5rem; } }
 
 @media (max-width: 48em) {
   .navMenu--vert {
