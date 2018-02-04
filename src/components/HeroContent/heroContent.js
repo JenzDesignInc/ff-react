@@ -1,6 +1,4 @@
 import React from 'react'
-import { findDOMNode } from 'react-dom';
-import ReactGA from 'react-ga';
 
 
 //import BibCover from '../../assets/images/hero_bkg.jpg'

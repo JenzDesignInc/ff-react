@@ -1,6 +1,5 @@
 import React from 'react'
-import { findDOMNode } from 'react-dom';
-import ReactGA from 'react-ga';
+
 
 
 
@@ -21,7 +20,7 @@ class AboutUs extends React.Component {
                     <div className="hero__aboutUs--content txt--color-white txt--align-center">
                         <h1 className="hero__title vr">About Us</h1>
                         <div className="hero__content--bkg">
-                        <h2>Fire and Feast furniture is inspired by the need for comfortable furniture to spend life outdoors with family and friends.  Whether that time be spent with loved ones lakeside, poolside, fireside, or tableside, Fire and Feast is dedicated to meeting your furnishing needs for time together outside</h2>
+                        <h2>Fire and Feast furniture is inspired by the need for comfortable furniture to spend life outdoors with family and friends. Whether that time be spent with loved ones lakeside, poolside, fireside, or tableside, Fire and Feast is dedicated to meeting your furnishing needs for time together outside.</h2>
 
                         </div>
                     </div>
@@ -32,7 +31,7 @@ class AboutUs extends React.Component {
                         <div class="card card--shadow">
                             <div class="card__body">
                             <h1>Who are we?</h1>
-                            <p className="txt--size-18">Fire and Feast Products, LLC was launched in the Spring of 2017 by co-founders Glen and Jeff.  Inspired by long summer days on the lake in Wisconsin, we sought to design and build the “perfect” adirondack chair, one that portrays a classic and timeless style, while incorporating design modifications to ensure greater comfort.  We believe that we deliver that chair to you with the introduction of the “Fireside” model.</p>
+                            <p className="txt--size-18">Fire and Feast Products, LLC was launched in the Spring of 2017 by co-founders Glen and Jeff. Inspired by long summer days on the lake in Wisconsin, we sought to design and build the “perfect” adirondack chair, one that portrays a classic and timeless style, while incorporating design modifications to ensure greater comfort. We believe that we deliver that chair to you with the introduction of the “Fireside” model.</p>
                 
                             <h1>How are we different?</h1>
                                                 <p className="txt--size-18">We are a small company, wholly owned by our co-founders.  We do not serve shareholders or investors.  We serve you our customers, our loyal followers to whom we refer as our “chairholders”.</p>

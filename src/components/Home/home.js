@@ -1,7 +1,4 @@
 import React from 'react'
-import { findDOMNode } from 'react-dom';
-import { Link } from 'react-router-dom';
-import ReactGA from 'react-ga';
 import Hero from '../Hero/hero';
 import HeroContent from '../HeroContent/heroContent';
 import IntroCards from '../IntroCards/introCards';

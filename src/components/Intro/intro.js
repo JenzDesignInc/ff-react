@@ -1,11 +1,10 @@
 import React from 'react'
-import { findDOMNode } from 'react-dom';
-import { Link, NavLink } from 'react-router-dom';
+import {NavLink } from 'react-router-dom';
 class Intro extends React.Component {
     render() {
         return (
             <div className="card card--shadow vr--x2">
-               <div class="card__body">
+               <div className="card__body">
                     <p className="txt--size-18">
                     Created primarily from recycled plastic milk containers and other similar non-biodegradable plastics, HDPE “lumber” saves millions of containers from the landfill. HDPE provides countless possibilities for your craftsman grade, outdoor furniture needs.
                     </p>

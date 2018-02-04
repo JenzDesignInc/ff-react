@@ -1,8 +1,4 @@
 import React from 'react'
-import { findDOMNode } from 'react-dom';
-import ReactGA from 'react-ga';
-
-import $ from 'jquery';
 import Form from '../Form/form';
 
 
@@ -33,7 +29,7 @@ class ContactUs extends React.Component {
             
                 <div className="form--wrapper padding--x1 card--shadow">
             
-            <h1 className="vr txt--align-center"></h1>
+
 
             <Form></Form>
     

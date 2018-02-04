@@ -1,6 +1,4 @@
 import React from 'react'
-import { findDOMNode } from 'react-dom';
-import ReactGA from 'react-ga';
 import FontAwesome from 'react-fontawesome';
 
 //import BibCover from '../../assets/images/hero_bkg.jpg'
@@ -9,20 +7,20 @@ class Footer extends React.Component {
     render() {
         return (
 
-            <footer class="page__footer">
+            <footer className="page__footer">
 
-                <div class="wrapper">
+                <div className="wrapper">
                     <div className="isHidden isVisible--medium">
                         <div className="grid grid--bottom txt--color-white">
 
                             <div className="grid__col grid__col--4of12">
 
                                 <div className="logo--fireFeast--footer"></div>
-                                <h3 class="txt--size-24 vr footer--txt--brand"><strong>FIRE AND FEAST</strong></h3>
+                                <h3 className="txt--size-24 vr footer--txt--brand"><strong>FIRE AND FEAST</strong></h3>
 
-                                <nav role="navigation" class="vr footer__icons">
+                                <nav role="navigation" className="vr footer__icons">
 
-                                    <ul class="hList">
+                                    <ul className="hList">
 
                                         <a href="https://instagram.com/fire_and_feast" target="_blank" rel="noopener noreferrer">
                                             <li> <FontAwesome name='instagram' size='3x' className='fa fa-instagram' /></li>
@@ -42,17 +40,17 @@ class Footer extends React.Component {
 
                             <div className="grid__col grid__col--4of12">
 
-                                <ul class="vList vList--tight txt--size-18 vr">
+                                <ul className="vList vList--tight txt--size-18 vr">
                                     <li className=""><strong>Glen Frank</strong></li>
                                     <li>Co-Founder and Owner</li>
-                                    <li class="vr">
-                                        <a href="mailto:glen@thefireandfeast.com?subject=Fire%20and%20Feast%20Inquiry" class="txt txt--color-white">glen@thefireandfeast.com</a>
+                                    <li className="vr">
+                                        <a href="mailto:glen@thefireandfeast.com?subject=Fire%20and%20Feast%20Inquiry" className="txt txt--color-white">glen@thefireandfeast.com</a>
                                     </li>
 
                                     <li><strong>Jeff Brown</strong></li>
                                     <li>Co-Founder and Owner</li>
-                                    <li class="vr">
-                                        <a href="mailto:jeff@thefireandfeast.com?subject=Fire%20and%20Feast%20Inquiry" class="txt txt--color-white">jeff@thefireandfeast.com</a>
+                                    <li className="vr">
+                                        <a href="mailto:jeff@thefireandfeast.com?subject=Fire%20and%20Feast%20Inquiry" className="txt txt--color-white">jeff@thefireandfeast.com</a>
                                     </li>
 
 
@@ -62,7 +60,7 @@ class Footer extends React.Component {
 
                             <div className="grid__col grid__col--4of12 txt--align--right">
 
-                                <ul class="vList vList--tight txt--size-18 vr">
+                                <ul className="vList vList--tight txt--size-18 vr">
                                     <li>Fire and Feast Products, LLC</li>
                                     <li>1000 Brown Street, #212</li>
                                     <li className="vr">Wauconda, IL 60084   </li>
@@ -80,12 +78,12 @@ class Footer extends React.Component {
                     </div>
 
                     <div className="isHidden--medium">
-                        <div class="wrapper  txt--align-center">
+                        <div className="wrapper  txt--align-center">
                             <div className="logo--fireFeast--footer "></div>
-                            <h3 class="txt--size-24 vr footer--txt--brand"><strong>FIRE AND FEAST</strong></h3>
-                            <nav role="navigation" class="vr footer__icons">
+                            <h3 className="txt--size-24 vr footer--txt--brand"><strong>FIRE AND FEAST</strong></h3>
+                            <nav role="navigation" className="vr footer__icons">
 
-                                <ul class="hList">
+                                <ul className="hList">
 
                                     <a href="https://instagram.com/fire_and_feast" target="_blank" rel="noopener noreferrer">
                                         <li> <FontAwesome name='instagram' size='3x' className='fa fa-instagram' /></li>
@@ -105,17 +103,17 @@ class Footer extends React.Component {
                         </div>
                         <div className="grid grid--centered txt--color-white">
                             <div className="grid__col  txt--align-center">
-                            <ul class="vList vList--tight txt--size-18 vr">
+                            <ul className="vList vList--tight txt--size-18 vr">
                                 <li className=""><strong>Glen Frank</strong></li>
                                 <li>Co-Founder and Owner</li>
-                                <li class="vr">
-                                    <a href="mailto:glen@thefireandfeast.com?subject=Fire%20and%20Feast%20Inquiry" class="txt txt--color-white">glen@thefireandfeast.com</a>
+                                <li className="vr">
+                                    <a href="mailto:glen@thefireandfeast.com?subject=Fire%20and%20Feast%20Inquiry" className="txt txt--color-white">glen@thefireandfeast.com</a>
                                 </li>
 
                                 <li><strong>Jeff Brown</strong></li>
                                 <li>Co-Founder and Owner</li>
-                                <li class="vr">
-                                    <a href="mailto:jeff@thefireandfeast.com?subject=Fire%20and%20Feast%20Inquiry" class="txt txt--color-white">jeff@thefireandfeast.com</a>
+                                <li className="vr">
+                                    <a href="mailto:jeff@thefireandfeast.com?subject=Fire%20and%20Feast%20Inquiry" className="txt txt--color-white">jeff@thefireandfeast.com</a>
                                 </li>
                                 <li>Fire and Feast Products, LLC</li>
                                 <li>1000 Brown Street, #212</li>

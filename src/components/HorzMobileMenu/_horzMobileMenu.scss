@@ -11,6 +11,10 @@
     text-transform: uppercase;
 }
 
+.navMenu--vert >li {
+    cursor: pointer;
+}
+
 .nav__link>a.active {
     color: $brand-orange;
     font-weight: 700

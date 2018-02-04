@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { findDOMNode } from 'react-dom';
 import $ from 'jquery';
 import ReactGA from 'react-ga';
@@ -9,7 +9,6 @@ import ReactGA from 'react-ga';
 class Header extends React.Component {
   function ($) {
 
-    'use strict';
   
     $.fn.header = function () {
       return this.each(function () {
@@ -23,7 +22,7 @@ class Header extends React.Component {
         });
   
         $(document).keyup(function (e) {
-          if (e.keyCode == 27) {
+          if (e.keyCode === 27) {
             $('.togglePanel').slideUp().removeClass('nav--show');
             $('.header__mobileUtil').removeClass('hamburger__navicon--isActive');
           }
@@ -92,7 +91,7 @@ class Header extends React.Component {
     $(el).addClass("hamburger__navicon--isActive");
 
     $(document).keyup(function (e) {
-      if (e.keyCode == 27) {
+      if (e.keyCode === 27) {
         $('.togglePanel').slideUp().removeClass('nav--show');
         $('.header__mobileUtil').removeClass('hamburger__navicon--isActive');
       }

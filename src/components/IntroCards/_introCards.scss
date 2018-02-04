@@ -50,7 +50,7 @@
 
 @media screen and (max-width: $breakpoint-medium) {
   .card__header h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .grow { 
     @include transition( none, 0, none);

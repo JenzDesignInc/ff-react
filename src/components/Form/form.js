@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import $ from 'jquery';
 import {brown700, brown500, orange500, orangeA700} from 'material-ui/styles/colors';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import RaisedButton from 'material-ui/RaisedButton';
 import { ValidatorForm } from 'react-form-validator-core';
 import { TextValidator } from 'react-material-ui-form-validator';
@@ -22,7 +21,7 @@ const styles = {
     floatingLabelFocusStyle: {
       color: brown500,
     },
-    backgroundColorStyle: {
+    backgroundcolorstyle: {
         color: orangeA700,
     }
   };
@@ -151,7 +150,7 @@ handleSubmit() {
       
       <RaisedButton
           type="submit"
-          backgroundColorStyle={styles.backgroundColorStyle}
+          backgroundcolorstyle={styles.backgroundcolorstyle}
           label={
               (submitted && 'Your form is submitted!')
               || (!submitted && 'Submit')

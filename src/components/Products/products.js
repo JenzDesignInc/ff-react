@@ -1,7 +1,5 @@
 import React from 'react'
-import { findDOMNode } from 'react-dom';
-import { Link, NavLink } from 'react-router-dom';
-import ReactGA from 'react-ga';
+import { NavLink } from 'react-router-dom';
 import pattern1 from '../../assets/images/pattern_1.png'
 import pattern2 from '../../assets/images/pattern_2.png'
 import pattern3 from '../../assets/images/pattern_3.png'

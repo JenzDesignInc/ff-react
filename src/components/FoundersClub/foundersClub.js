@@ -1,13 +1,6 @@
 import React from 'react'
-import { findDOMNode } from 'react-dom';
-import ReactGA from 'react-ga';
 
-import $ from 'jquery';
 import FormClub from '../FormClub/formClub';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import RaisedButton from 'material-ui/RaisedButton';
-import { ValidatorForm } from 'react-form-validator-core';
-import { TextValidator } from 'react-material-ui-form-validator';
 
 
 
@@ -39,7 +32,7 @@ class FoundersClub extends React.Component {
                             <div className="grid__col grid__col--6of12">
                                 <h1 className="vr">Join the Founder's Club</h1>
                                 <p>Join us as a member of the Fire and Feast Founder's Club. As a member, you will receive periodic updates regarding new product launches, care and maintenance tips, recipes, BBQ and grilling insight, and recommendations for how you can enjoy lifeoutdoors. </p>
-                                <p>You will also receive exclusive discounts and coupons for Fire and Feast Products, including <strong>15% your first order!</strong>
+                                <p>You will also receive exclusive discounts and coupons for Fire and Feast Products, including <strong>15% off on your first order!</strong>
                                 </p>
 
                             </div>
@@ -60,7 +53,7 @@ class FoundersClub extends React.Component {
                             <div className="grid__col grid__col--12of12">
                                 <h1 className="vr">Join the Founder's Club</h1>
                                 <p>Join us as a member of the Fire and Feast Founder's Club. As a member, you will receive periodic updates regarding new product launches, care and maintenance tips, recipes, BBQ and grilling insight, and recommendations for how you can enjoy lifeoutdoors. </p>
-                                <p>You will also receive exclusive discounts and coupons for Fire and Feast Products, including <strong>15% your first order!</strong>
+                                <p>You will also receive exclusive discounts and coupons for Fire and Feast Products, including <strong>15% off on your first order!</strong>
                                 </p>
 
                             </div>
